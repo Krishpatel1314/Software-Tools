@@ -1,0 +1,66 @@
+<html>
+<head>
+    <style>
+    table ,th{
+        border:2px solid blue;
+    }
+    #fr{ background-color: darkgray;}
+    .odd{ background-color: #ffffff;}
+    .even{background-color: #ddd;}
+    tbody tr:hover{
+        color: #f5f5dc;
+    }
+    ul{
+            list-style-image: url('book.png');
+            list-style-position: inside;
+      }
+    li:nth-child(odd){color: blue;}
+    li:nth-child(even){color: red;}
+    </style>
+</head>
+<center>
+  <h1>Table</h1>
+<body>
+    <table width="70%">
+        <tr id="fr">
+          <th rowspan="3">A</th>
+          <th>B</th>
+          <th colspan="2">C</th>
+          <th>D</th>
+          <th rowspan="2" colspan="2">E</th>
+        </tr>
+        <tr class="even">
+          <th>F</th>
+          <th>G</th>
+          <th rowspan="3">H</th>
+          <th>I</th>
+        </tr>
+        <tr class="odd">
+          <th rowspan="2">J</th>
+          <th>K</th>
+          <th>L</th>
+          <th>M</th>
+          <th>N</th>
+        </tr>
+        <tr class="even">
+          <th>O</th>
+          <th>P</th>
+          <th colspan="3">Q</th>
+        </tr> 
+      </table>
+      <br>
+      <br>
+      <h1>List</h1>
+      <h2>Subject list of CSE : Sem 2</h2>
+      <ul>
+        <li>Programming for Problem Solving</li>
+        <li>Mathematics</li>
+        <li>Software Tools</li>
+        <li>Soft Skill</li>
+        <li>Enviromental Studies</li>
+        <li>Engineering Chemisrty</li>
+        <li>Engineering Graphics</li>
+      </ul>
+</body>
+</center>
+</html>
