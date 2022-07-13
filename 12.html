@@ -1,0 +1,21 @@
+<html>
+    <body onbeforeunload="return Exit()">
+        <h1 id="text" onmouseover="fun()" onmouseout="fun1()"> Software Tools  
+        </h1>
+        
+        <script type="text/javascript">
+            function Exit()
+            {
+                return "";
+            }
+            function fun()
+            {
+                document.getElementById("text").style.backgroundColor="Red";
+            }
+            function fun1()
+            {
+                document.getElementById("text").style.backgroundColor="Blue";
+            }
+        </script>
+    </body>
+</html>
